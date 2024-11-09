@@ -20,17 +20,19 @@
     "dist/"
   ],
   "scripts": {
-    "build": "npm run clean && npm run lint && tsc",
+    "build": "npm run clean && tsc",
     "clean": "node -e \"var { rmdirSync, existsSync } = require('fs'), path = require('path'); ['./dist'].forEach(fPath => {if (existsSync(path.join(__dirname, fPath))) rmdirSync(path.join(__dirname, fPath), { recursive: true })}); process.exit(0);\"",
     "clean:all": "npm run clean && (rm -r ./node_modules || true)",
     "lint:fix": "eslint --fix src/**/*.ts test/**/*.ts",
     "lint:check": "eslint src/**/*.ts test/**/*.ts",
-    "format:write": "prettier --write src/",
-    "format:check": "prettier --check src/",
+    "docs:build": "typedoc --entryPointStrategy expand ./src --out ./docs/",
+    "format:write": "prettier --write src/ test/",
+    "format:check": "prettier --check src/ test/",
     "preversion": "npm run build && npm run cover:check",
     "prepare": "husky",
-    "serve": "nodemon ./src/index.ts",
-    "test": "mocha"
+    "start": "node dist/index.js",
+    "test": "mocha",
+    "debug": "node --inspect ./src/index.ts"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.4.0",
