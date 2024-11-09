@@ -31,7 +31,7 @@
     "preversion": "npm run build && npm run cover:check",
     "prepare": "husky",
     "start": "node dist/index.js",
-    "test": "mocha",
+    "test": "mocha && depcruise src",
     "debug": "node --inspect ./src/index.ts"
   },
   "devDependencies": {
@@ -46,6 +46,7 @@
     "@typescript-eslint/parser": "^8.0.0",
     "@vue/eslint-config-prettier": "^10.0.0",
     "chai": "^4.3.7",
+    "dependency-cruiser": "^16.6.0",
     "eslint": "^9.8.0",
     "husky": "^9.1.4",
     "lint-staged": "^15.2.8",
