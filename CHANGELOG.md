@@ -1,3 +1,17 @@
+## [1.1.3](https://github.com/LetsStreamIt/Template-for-Typescript-Projects/compare/v1.1.2...v1.1.3) (2025-01-06)
+
+### Dependency updates
+
+* **deps:** update dependency @types/node to v22.10.3 ([#183](https://github.com/LetsStreamIt/Template-for-Typescript-Projects/issues/183)) ([0e95aef](https://github.com/LetsStreamIt/Template-for-Typescript-Projects/commit/0e95aef974c4f40c48e1e8e4aa302fe708c265b9))
+* **deps:** update dependency @types/node to v22.10.4 ([#184](https://github.com/LetsStreamIt/Template-for-Typescript-Projects/issues/184)) ([c4acb5a](https://github.com/LetsStreamIt/Template-for-Typescript-Projects/commit/c4acb5a046414d727054589bac146c8fcf026621))
+* **deps:** update dependency @types/node to v22.10.5 ([#185](https://github.com/LetsStreamIt/Template-for-Typescript-Projects/issues/185)) ([066c0a5](https://github.com/LetsStreamIt/Template-for-Typescript-Projects/commit/066c0a527d67118998953b6129ac8e5797a16b8e))
+* **deps:** update dependency lint-staged to v15.3.0 ([#181](https://github.com/LetsStreamIt/Template-for-Typescript-Projects/issues/181)) ([00e37b9](https://github.com/LetsStreamIt/Template-for-Typescript-Projects/commit/00e37b9efbe86a96cbdeb82111a51a93cf450be4))
+* **deps:** update typescript-eslint monorepo to v8.19.0 ([#182](https://github.com/LetsStreamIt/Template-for-Typescript-Projects/issues/182)) ([fd335be](https://github.com/LetsStreamIt/Template-for-Typescript-Projects/commit/fd335be641f5e9a2a8065d3a69b8c22dd5f6f874))
+
+### Bug Fixes
+
+* **ci:** remove async api step ([9ccdfe3](https://github.com/LetsStreamIt/Template-for-Typescript-Projects/commit/9ccdfe3e7730cf731825f8b268f6bfc462f482e3))
+
 ## [1.1.2](https://github.com/LetsStreamIt/Template-for-Typescript-Projects/compare/v1.1.1...v1.1.2) (2024-12-30)
 
 ### Dependency updates
